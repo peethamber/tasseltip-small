@@ -1,0 +1,6 @@
+/public/Build/tasseltip-webgl.data filter=lfs diff=lfs merge=lfs -text
+status filter=lfs diff=lfs merge=lfs -text
+public/Build/webgl.data filter=lfs diff=lfs merge=lfs -text
+public/Build/webgl.data.unityweb filter=lfs diff=lfs merge=lfs -text
+public/Build/webgl.wasm.unityweb filter=lfs diff=lfs merge=lfs -text
+public/Build/webgl.framework.js.unityweb filter=lfs diff=lfs merge=lfs -text

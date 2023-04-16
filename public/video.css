@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+  }
+  
+  video {
+    /* The image used */
+    background-image: url("metaverse.jpg"); 
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    width:auto;
+    /* height:auto; */
+  }

@@ -1,0 +1,136 @@
+.DMbanner-laptop1{
+  /* The image used */
+  background-image: url("/designer_module/how-it-works.jpg");
+  height:100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left:0;
+  right:0;
+}
+
+.DMbanner-laptop2{
+  /* The image used */
+  background-image: url("/designer_module/find-your-fans.jpg");
+
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left:0;
+  right:0;
+}
+.DMbanner-laptop3{
+  /* The image used */
+  background-image: url("/designer_module/fabric-store.jpg");
+
+ 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left:0;
+  right:0;
+}
+.DMbanner-laptop4{
+  /* The image used */
+  background-image: url("/designer_module/artists.jpg");
+
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left:0;
+  right:0;
+}
+.DMbanner-laptop5{
+  /* The image used */
+  background-image: url("/designer_module/you-are-the-boss.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left:0;
+  right:0;
+}
+.DMbanner-laptop6{
+  /* The image used */
+  background-image: url("/designer_module/start-selling.jpg");
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left:0;
+  right:0;
+}
+.center {
+  /* border: 5px solid #FFFF00; */
+  /* display: flex; */
+  /* float: center; */
+  margin: 30px;
+  
+  }
+
+
+
+
+  .logo{
+    height: 120px;
+    
+}
+.header{
+  height:100vh;
+}
+.icon-bar{
+
+    background: darkorange;
+}
+
+.navbarNav{
+    font-family: 'Tahoma';
+    font-size: 16px;
+    align-items: center;
+    
+    
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}
+
+#card-title{
+  font-size: 30px;
+  font-family:'Lucida Sans Unicode'
+}
+
+#card-title2{
+  font-size: 23px;
+  font-family:'Courier New';}
+
+
+
+.container a{
+  text-decoration: none;
+  color: black;
+  /* flex-direction: row; */
+  
+}
+
+.container a :hover{
+  text-decoration: none;
+  color: black;
+  
+}
+
+.image{
+  width:400px;
+  height:400px;
+}
+
+    
