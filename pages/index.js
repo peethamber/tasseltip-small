@@ -18,11 +18,11 @@ export default function Home() {
     <img className="d-block w-100" src="/techpic2.jpeg"></img>
     <div className = "mt-5">
     <img className="d-block w-100" src="/metaverse.jpg"></img>
-    <a href="/video.html" style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} target="_blank" >PLAY VIDEO</a>
+    <a href="/video.html" style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} target="_blank" >PLAY VIDEO (Best View in Landscape on Mobile)</a>
     <img className="d-block w-100" src="/vr.jpg"></img>
-    <a href="/onativideo.html" style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} target="_blank" >PLAY VIDEO</a>
+    <a href="/onativideo.html" style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} target="_blank" >PLAY VIDEO (Best View in Landscape on Mobile)</a>
     <img className="d-block w-100" src="/gamify.jpg"></img>
-    <a href="/gamevideo.html" style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} target="_blank" >PLAY VIDEO</a>
+    <a href="/gamevideo.html" style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} target="_blank" >PLAY VIDEO (Best View in Landscape on Mobile)</a>
     </div>
     <Footer2></Footer2>
             
