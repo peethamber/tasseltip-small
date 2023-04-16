@@ -13,7 +13,7 @@ export default function Home() {
     
     <div className="mt-5">
     
-    <Container flex style={{fontSize:"25px"}}>
+    <Container flex style={{fontSize:"20px"}}>
     <Header3></Header3>
     <img className="d-block w-100" src="/techpic2.jpeg"></img>
     <div className = "mt-5">
