@@ -18,11 +18,16 @@ export default function Home() {
     <img className="d-block w-100" src="/techpic2.jpeg"></img>
     <div className = "mt-5">
     <img className="d-block w-100" src="/metaverse.jpg"></img>
-    <a href="/video.html" style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} target="_blank" >PLAY VIDEO (Best View in Landscape on Mobile)</a>
+    <a style={{textDecoration:"none",color:"white",backgroundColor:'black'}} href="/video.html"  target="_blank" >PLAY VIDEO</a>
+    <p style={{backgroundColor:'grey',color:'white'}}>Best Viewed in Landscape on Mobile</p>
+    
     <img className="d-block w-100" src="/vr.jpg"></img>
-    <a href="/onativideo.html" style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} target="_blank" >PLAY VIDEO (Best View in Landscape on Mobile)</a>
+    <a style={{textDecoration:"none",color:"white",backgroundColor:'black'}} href="/onativideo.html"  target="_blank" >PLAY VIDEO </a>
+    <p style={{backgroundColor:'grey',color:'white'}}>Best Viewed in Landscape on Mobile</p>
+
     <img className="d-block w-100" src="/gamify.jpg"></img>
-    <a href="/gamevideo.html" style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} target="_blank" >PLAY VIDEO (Best View in Portrait on Mobile)</a>
+    <a style={{textDecoration:"none",color:"white",backgroundColor:'black'}} href="/gamevideo.html"  target="_blank" >PLAY VIDEO </a>
+    <p style={{backgroundColor:'grey',color:'white'}}>Best Viewed in Portrait on Mobile</p>
     </div>
     <Footer2></Footer2>
             
