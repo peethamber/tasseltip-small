@@ -72,6 +72,16 @@ export default function Header3() {
 
                         <Col style={{fontSize:"19px"}}>
                             <NavDropdown.Item eventKey="Contact Me" 
+                            href="./experience" >
+                                My Journey</NavDropdown.Item>
+                        
+                        </Col>
+
+                        </Row>
+                        <Row>
+
+                        <Col style={{fontSize:"19px"}}>
+                            <NavDropdown.Item eventKey="Contact Me" 
                             href="./ContactMe" >
                                 Contact Me</NavDropdown.Item>
                         
