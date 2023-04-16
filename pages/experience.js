@@ -16,7 +16,9 @@ export default function gamiform() {
     <Container flex style={{fontFamily:"Arial",fontSize:"30px"}}>
     <Card border="secondary">
     <div className="mt-5">
-  
+    <p style={{fontWeight:"bold"}}>
+    My Consulting Experiences
+    </p>
     <p style={{fontWeight:"bold"}}>
     Global UK Based Events Organizers
     </p>
