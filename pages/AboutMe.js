@@ -13,7 +13,7 @@ export default function AboutMe() {
     
     <div className="main-div">
     <Header3></Header3>
-    <Container flex style={{fontFamily:"arial",fontSize:"24px"}}>
+    <Container flex style={{fontFamily:"arial",fontSize:"22px"}}>
     <img className="img-fluid mx-auto d-block" src="peethamber.jpeg" width="30%"/>
     <Card border="secondary">
     
