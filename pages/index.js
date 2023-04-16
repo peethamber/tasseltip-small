@@ -13,7 +13,7 @@ export default function Home() {
     
     <div className="mt-5">
     
-    <Container flex style={{fontSize:"20px"}}>
+    <Container flex style={{fontSize:"17px"}}>
     <Header3></Header3>
     <img className="d-block w-100" src="/techpic2.jpeg"></img>
     <div className = "mt-5">
@@ -21,7 +21,7 @@ export default function Home() {
     <a style={{textDecoration:"none",color:"white",backgroundColor:'black'}} href="/video.html"  target="_blank" >PLAY VIDEO</a>
     <p style={{backgroundColor:'grey',color:'white'}}>Best Viewed in Landscape on Mobile</p>
     
-    <img className="d-block w-100" src="/vr.jpg"></img>
+    <img className="d-block w-100" src="/vr2.jpg"></img>
     <a style={{textDecoration:"none",color:"white",backgroundColor:'black'}} href="/onativideo.html"  target="_blank" >PLAY VIDEO </a>
     <p style={{backgroundColor:'grey',color:'white'}}>Best Viewed in Landscape on Mobile</p>
 
