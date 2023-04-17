@@ -13,9 +13,9 @@ export default function gamiform() {
     
     <div className="main-div">
     <Header3></Header3>
-    <Container flex style={{fontFamily:"Arial",fontSize:"22px"}}>
-    <Card border="secondary">
-    <div className="mt-5">
+    <Container flex >
+    <Card border="secondary" >
+    <div className="mt-5" style={{fontFamily:"Arial",fontSize:"19px",alignSelf:'center'}}>
     <p style={{fontWeight:"bold"}}>
     My Consulting Experiences
     </p>

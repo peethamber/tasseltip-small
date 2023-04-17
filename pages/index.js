@@ -12,23 +12,23 @@ export default function Home() {
   return ( 
     
     <div className="mt-5">
-    
-    <Container flex style={{fontSize:"19px"}}>
     <Header3></Header3>
-    <img className="d-block w-100" src="/techpic2.jpeg"></img>
+    <Container flex>
+    
+    <a href="whygamiform"><img className="d-block w-100" src="/techpic2.jpeg"></img></a>
     <div className = "mt-5">
     <img className="d-block w-100" src="/metaverse.jpg"></img>
    
-    <a style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} href="/video.html"  target="_blank" >PLAY VIDEO</a>
+    <a style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} href="/video.html">PLAY VIDEO</a>
     <p style={{color:'grey'}}>Best Viewed in Landscape on Mobile</p>
     
 
     <img className="d-block w-100" src="/vr2.jpg"></img>
-    <a style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} href="/onativideo.html"  target="_blank" >PLAY VIDEO </a>
+    <a style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} href="/onativideo.html">PLAY VIDEO </a>
     <p style={{color:'grey'}}>Best Viewed in Landscape on Mobile</p>
 
     <img className="d-block w-100" src="/gamify.jpg"></img>
-    <a style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} href="/gamevideo.html"  target="_blank" >PLAY VIDEO </a>
+    <a style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} href="/gamevideo.html">PLAY VIDEO </a>
     <p style={{color:'grey'}}>Best Viewed in Portrait on Mobile</p>
     </div>
     <Footer2></Footer2>

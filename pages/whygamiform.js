@@ -13,8 +13,8 @@ export default function gamiform() {
     
     <div className="main-div">
     <Header3></Header3>
-    <Container flex style={{fontFamily:"arial",fontSize:"22px"}}>
-    <Card border="secondary">
+    <Container flex >
+    <Card border="secondary" style={{fontFamily:"arial",fontSize:"19px",alignContent:'center'}}>
     <div className="mt-5">
     <p>
     Your business is a state machine and broadly exists in one of two states: 
