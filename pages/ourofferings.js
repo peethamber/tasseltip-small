@@ -13,8 +13,8 @@ export default function gamiform() {
     
     <div className="main-div">
     <Header3></Header3>
-    <Container flex style={{fontFamily:"Arial",fontSize:"22px"}}>
-    <Card border="secondary">
+    <Container flex >
+    <Card border="secondary" style={{fontFamily:"Arial",fontSize:"19px",alignItems:'center'}}>
     <div className="mt-5">
   
     <p style={{fontWeight:"bold"}}>
