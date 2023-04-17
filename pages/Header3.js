@@ -10,7 +10,7 @@ export default function Header3() {
         
         <div>
     
-            <a href="/"><img className="img-fluid mx-auto d-block" src="Tasseltip.png" width="20%"/></a>
+            <a href="/"><img className="img-fluid mx-auto d-block" src="Tasseltip.png" width="25%"/></a>
            
             <Navbar bg="light" variant="light" expand="lg" className="navbarNav" style={{fontSize:"17px"}}>
             <Container flex>
