@@ -3,10 +3,11 @@ body, html {
   }
   
   video {
-   
-    height: "400vh";
+    background-image: "Tasseltip.png";
+    height:"100vh";
   
     /* Center and scale the image nicely */
-    width:"400vh";
+    width:"100vh";
     /* height:auto; */
+    
   }
