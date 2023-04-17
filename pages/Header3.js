@@ -12,18 +12,18 @@ export default function Header3() {
     
             <a href="/"><img className="img-fluid mx-auto d-block" src="Tasseltip.png" width="20%"/></a>
            
-            <Navbar bg="light" variant="light" expand="lg" className="navbarNav" >
+            <Navbar bg="light" variant="light" expand="lg" className="navbarNav" style={{fontSize:"17px"}}>
             <Container flex>
                
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="navbarNav mx-auto" style={{fontSize:"19px"}}>
+                <Nav className="navbarNav mx-auto" >
                 <NavDropdown title="Virtual Tour" renderMenuOnMount={true}  >
                                       
                                       <Row>
                   
-                                      <Col style={{fontSize:"19px"}}>
+                                      <Col >
                                           <NavDropdown.Item eventKey="Virtual Office" 
                                           href="https://www.tasseltip.com/webgl-small/index.html" target="_blank">
                                               The Office</NavDropdown.Item>
@@ -38,7 +38,7 @@ export default function Header3() {
                           <NavDropdown title="Capabilities" renderMenuOnMount={true}  >
                           <Row>
                             
-                            <Col style={{fontSize:"19px"}}>
+                            <Col>
                                 <NavDropdown.Item eventKey="Services" 
                                 href="./ourofferings">
                                     Our Expertise</NavDropdown.Item>
@@ -51,7 +51,7 @@ export default function Header3() {
                          <NavDropdown title="Gamiform" renderMenuOnMount={true}  >
                           <Row>
                             
-                            <Col style={{fontSize:"19px"}}>
+                            <Col >
                                 <NavDropdown.Item eventKey="Gamiform" 
                                 href="./whygamiform">
                                     Why "Gamiform"</NavDropdown.Item>
@@ -62,7 +62,7 @@ export default function Header3() {
                    
                           <Row>
                                 
-                                <Col style={{fontSize:"19px"}}>
+                                <Col >
                                     <NavDropdown.Item eventKey="Gamiform" 
                                     href="./gamiform" >
                                          "Gamiform" The Workplace</NavDropdown.Item>
@@ -76,7 +76,7 @@ export default function Header3() {
                                             
                         <Row>
 
-                        <Col style={{fontSize:"19px"}}>
+                        <Col>
                             <NavDropdown.Item eventKey="About Me" 
                             href="./AboutMe" >
                                 About Me</NavDropdown.Item>
@@ -86,7 +86,7 @@ export default function Header3() {
                         </Row>
                         <Row>
 
-                        <Col style={{fontSize:"19px"}}>
+                        <Col >
                             <NavDropdown.Item eventKey="Contact Me" 
                             href="./experience" >
                                 My Journey</NavDropdown.Item>
@@ -96,7 +96,7 @@ export default function Header3() {
                         </Row>
                         <Row>
 
-                        <Col style={{fontSize:"19px"}}>
+                        <Col >
                             <NavDropdown.Item eventKey="Contact Me" 
                             href="./ContactMe" >
                                 Contact Me</NavDropdown.Item>
