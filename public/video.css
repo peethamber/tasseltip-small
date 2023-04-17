@@ -4,12 +4,18 @@ body, html {
   
   video {
     /* The image used */
-    background-image: url("metaverse.jpg"); 
-  
+    /* background-image: url("Tasseltip.png");  */
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
     /* Full height */
-    height: 100%;
+    height: 100vh;
   
     /* Center and scale the image nicely */
-    width:auto;
+    width:100vh;
     /* height:auto; */
   }
