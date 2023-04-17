@@ -4,9 +4,9 @@ body, html {
   
   video {
    
-    height: 100vh;
+    height: auto;
   
     /* Center and scale the image nicely */
-    width:100vh;
+    width:auto;
     /* height:auto; */
   }
