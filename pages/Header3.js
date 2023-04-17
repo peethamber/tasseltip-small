@@ -19,7 +19,23 @@ export default function Header3() {
                
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="navbarNav mx-auto" style={{fontSize:"19px"}}>
-                <NavDropdown title="Capabilities" renderMenuOnMount={true}  >
+                <NavDropdown title="Virtual Tour" renderMenuOnMount={true}  >
+                                      
+                                      <Row>
+                  
+                                      <Col style={{fontSize:"19px"}}>
+                                          <NavDropdown.Item eventKey="Virtual Office" 
+                                          href="https://www.tasseltip.com/webgl-small/index.html" target="_blank">
+                                              The Office</NavDropdown.Item>
+                                          <NavDropdown.Item eventKey="MensFormals" 
+                                          href="https://www.tasseltip.com/webgl-small-meta/index.html" target="_blank">
+                                              TasselLand Metaverse</NavDropdown.Item>
+                                      </Col>
+                                      
+                                      </Row>
+                                       
+                          </NavDropdown>
+                          <NavDropdown title="Capabilities" renderMenuOnMount={true}  >
                           <Row>
                             
                             <Col style={{fontSize:"19px"}}>
@@ -32,7 +48,7 @@ export default function Header3() {
                             </Row>
                    
                           </NavDropdown>
-                <NavDropdown title="Gamiform" renderMenuOnMount={true}  >
+                         <NavDropdown title="Gamiform" renderMenuOnMount={true}  >
                           <Row>
                             
                             <Col style={{fontSize:"19px"}}>
@@ -91,22 +107,7 @@ export default function Header3() {
                         
                         </NavDropdown>
                                         
-                        <NavDropdown title="Walkthrough" renderMenuOnMount={true}  >
-                                      
-                                      <Row>
-                  
-                                      <Col style={{fontSize:"19px"}}>
-                                          <NavDropdown.Item eventKey="Virtual Office" 
-                                          href="https://www.tasseltip.com/webgl-small/index.html" target="_blank">
-                                              The Office</NavDropdown.Item>
-                                          <NavDropdown.Item eventKey="MensFormals" 
-                                          href="https://www.tasseltip.com/webgl-small-meta/index.html" target="_blank">
-                                              TasselLand Metaverse</NavDropdown.Item>
-                                      </Col>
-                                      
-                                      </Row>
-                                       
-                          </NavDropdown>
+                        
                        
                 </Nav>
                 </Navbar.Collapse>
