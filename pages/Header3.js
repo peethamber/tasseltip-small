@@ -12,7 +12,7 @@ export default function Header3() {
     
             
     <a href="/"><img src="Tasseltip.png" className="d-block mx-auto" width="130px"/></a>
-            <Navbar  expand="lg" className="navbarNav" style={{fontSize:"17px"}}>
+            <Navbar  expand="lg" className="navbar navbar-dark bg-dark" style={{fontSize:"17px"}}>
             <Container fluid>
             
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
