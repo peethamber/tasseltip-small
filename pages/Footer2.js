@@ -13,7 +13,7 @@ export default function Footer2({ name, ...props }) {
     
     
     return(
-        <div className="mt-5">
+        <div className="mt-5" style={{color:"white"}}>
 
            
                
