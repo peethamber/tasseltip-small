@@ -14,7 +14,7 @@ export default function Home() {
     <div style={{backgroundColor:"blanchedalmond"}}>
     <Header3></Header3>
     <Container flex>
-    <img className="d-block w-100" src="/Gamify2.jpg"></img>
+    <a href="whygamiform"><img className="d-block w-100" src="/Gamify2.jpg"></img></a>
     <a style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} href="/gamevideo.html">PLAY VIDEO </a>
    
     <p style={{color:'grey'}}>Best Viewed in Portrait on Mobile</p>
