@@ -15,7 +15,7 @@ export default function Home() {
     <Header3></Header3>
     <Container fluid>
     <p style={{color:"white",font:"arial-narrow",fontSize:"18px"}}>
-    Gamiform Experiences for your Online Business.
+    Gamiform Experiences for your Online Business
     </p>
     <a href="whygamiform"><img className="d-block w-100" src="/gaming2.jpeg"></img></a>
     <a style={{textDecoration:"none",color:"white",backgroundColor:'blue'}} href="/gamevideo.html">PLAY VIDEO </a>
@@ -28,7 +28,7 @@ export default function Home() {
     <a href="whygamiform"><img className="d-block w-100" src="/ar.webp" ></img></a>
 
     <p style={{color:"white",font:"arial-narrow",fontSize:"18px"}}>
-    AI powered Product Recommenders in In-Store and Online Shopping
+    AI powered Product Recommenders for In-Store and Online Shopping
     </p>
     <a href="whygamiform"><img  className="d-block w-100"  src="/fashionreco.jpg"></img></a>
    
