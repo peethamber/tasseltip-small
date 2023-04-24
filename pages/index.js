@@ -14,24 +14,21 @@ export default function Home() {
     <div style={{backgroundColor:"black"}}>
     <Header3></Header3>
     <Container fluid>
-    <p style={{color:"white",font:"arial-narrow",fontSize:"20px"}}>
-    Enhance Online Customer Engagement by 10X. Lower Online Marketing Costs. Deploy
-    our unique Gamiform Experiences to your Online Business.
+    <p style={{color:"white",font:"arial-narrow",fontSize:"18px"}}>
+    Gamiform Experiences to your Online Business.
     </p>
     <a href="whygamiform"><img className="d-block w-100" src="/gaming.webp"></img></a>
     <a style={{textDecoration:"none",color:"white",backgroundColor:'blue'}} href="/gamevideo.html">PLAY VIDEO </a>
     <p style={{color:'grey'}}>Best Viewed in Portrait on Mobile</p>
 
-    <p style={{color:"white",font:"arial-narrow",fontSize:"20px"}}>
-    Deploy our cutting-edge Mixed Reality solutions to enhance in-store
-    and online shopping experience.
+    <p style={{color:"white",font:"arial-narrow",fontSize:"18px"}}>
+    Mixed Reality in In-Store and Online Shopping
     </p>
     
     <a href="whygamiform"><img className="d-block w-100" src="/ar.webp" ></img></a>
 
-    <p style={{color:"white",font:"arial-narrow",fontSize:"20px"}}>
-    Deploy our State-Of-The-Art AI powered Product Recommenders to 
-    enhance the In-Store and Online Shopping Experience
+    <p style={{color:"white",font:"arial-narrow",fontSize:"18px"}}>
+    AI powered Product Recommenders in In-Store and Online Shopping
     </p>
     <a href="whygamiform"><img  className="d-block w-100"  src="/fashionreco.jpg"></img></a>
    
@@ -39,7 +36,7 @@ export default function Home() {
    
     {/* <a href="whygamiform"><img  className="d-block w-100"  src="/techpic2.jpeg"></img></a> */}
     
-    <p style={{color:"white",font:"arial-narrow",fontSize:"20px"}}>
+    <p style={{color:"white",font:"arial-narrow",fontSize:"18px"}}>
     We are building out our own Metaverse, TasselLand. 
     </p>
     <img className="d-block w-100" src="/metaverse.jpg"></img>

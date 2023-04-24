@@ -11,10 +11,11 @@ export default function gamiform() {
 
   return ( 
     
-    <div className="main-div">
+    <div className="main-div" style={{backgroundColor:"black"}}>
     <Header3></Header3>
     <Container flex >
-    <Card border="secondary" style={{fontFamily:"arial",fontSize:"19px",alignContent:'center'}}>
+    <Card border="secondary" style={{fontFamily:"arial",fontSize:"19px",
+    alignContent:'center',backgroundColor:"black",color:"white"}}>
     <div className="mt-5">
     <p>
     Your Online business is a state machine and broadly exists in one of two states: 

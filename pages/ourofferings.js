@@ -11,10 +11,11 @@ export default function gamiform() {
 
   return ( 
     
-    <div className="main-div">
+    <div className="main-div" style={{backgroundColor:'black'}}>
     <Header3></Header3>
     <Container flex >
-    <Card border="secondary" style={{fontFamily:"Arial",fontSize:"19px",alignItems:'center'}}>
+    <Card border="secondary" style={{fontFamily:"Arial",fontSize:"19px",
+    alignItems:'center',backgroundColor:'black',color:'white'}}>
     <div className="mt-5">
   
     <p style={{fontWeight:"bold"}}>

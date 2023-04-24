@@ -11,9 +11,9 @@ export default function ContactMe() {
 
   return ( 
     
-    <div className="main-div">
+    <div className="main-div" style={{backgroundColor:'black',color:'white'}}>
     <Header3></Header3>
-    <Container flex style={{fontFamily:"monospace",fontSize:"30px"}}>
+    <Container flex style={{fontFamily:"arial-narrow",fontSize:"22px"}}>
     
     <p>
     Reach me at +44 (0) 7557764276 or at peethvt@tasseltip.com

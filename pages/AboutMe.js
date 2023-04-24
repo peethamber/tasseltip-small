@@ -11,11 +11,12 @@ export default function AboutMe() {
 
   return ( 
     
-    <div className="main-div">
+    <div className="main-div"style={{backgroundColor:'black'}}>
     <Header3></Header3>
     <Container flex >
     <img className="img-fluid mx-auto d-block" src="peethamber.jpeg" width="30%"/>
-    <Card border="secondary" style={{fontFamily:"arial",fontSize:"19px",alignItems:'center'}}>
+    <Card border="secondary" style={{fontFamily:"arial",
+    fontSize:"19px",alignItems:'center',backgroundColor:'black',color:'white'}}>
     <div className="mt-5">
     <p>
     I have completed around 30 years of my journey in this exciting world of building 

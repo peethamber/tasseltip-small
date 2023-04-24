@@ -18,8 +18,8 @@ export default function Header3() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="navbarNav mx-auto" >
-                <NavDropdown title="Virtual Tour" renderMenuOnMount={true}  >
+                <Nav className="navbarNav mx-auto " >
+                <NavDropdown title="Virtual Tour" renderMenuOnMount={true}>
                                       
                                       <Row>
                   
