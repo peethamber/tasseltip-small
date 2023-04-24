@@ -18,6 +18,7 @@ export default function Home() {
     <a style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} href="/gamevideo.html">PLAY VIDEO </a>
    
     <p style={{color:'grey'}}>Best Viewed in Portrait on Mobile</p>
+    <a href="whygamiform"><img className="d-block w-100" src="/storeAR.jpg"></img></a>
     <a href="whygamiform"><img  className="d-block w-100"  src="/techpic2.jpeg"></img></a>
     <div >
     <img className="d-block w-100" src="/metaverse.jpg"></img>
