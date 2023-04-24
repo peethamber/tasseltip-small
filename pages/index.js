@@ -20,12 +20,13 @@ export default function Home() {
     </p>
     <a href="whygamiform"><img className="d-block w-100" src="/gaming.webp"></img></a>
     <a style={{textDecoration:"none",color:"white",backgroundColor:'blue'}} href="/gamevideo.html">PLAY VIDEO </a>
-   
+    <p style={{color:'grey'}}>Best Viewed in Portrait on Mobile</p>
+    
     <p style={{color:"white",font:"arial-narrow",fontSize:"27px"}}>
     Deploy our cutting-edge Mixed Reality solutions to enhance in-store
     and online shopping experience.
     </p>
-    <p style={{color:'grey'}}>Best Viewed in Portrait on Mobile</p>
+    
     <a href="whygamiform"><img className="d-block w-100" src="/ar.webp" style={{height:"1000px"}}></img></a>
 
     <p style={{color:"white",font:"arial-narrow",fontSize:"27px"}}>
