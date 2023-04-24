@@ -19,8 +19,15 @@ export default function Home() {
    
     <p style={{color:'grey'}}>Best Viewed in Portrait on Mobile</p>
     <a href="whygamiform"><img className="d-block w-100" src="/storeAR.jpg"></img></a>
+
+    <div className="mt-5">
+    <a href="whygamiform"><img  className="d-block w-100"  src="/fashionreco.jpg"></img></a>
+    </div>
+
+    <div className="mt-5">
     <a href="whygamiform"><img  className="d-block w-100"  src="/techpic2.jpeg"></img></a>
-    <div >
+    </div>
+    <div className="mt-5">
     <img className="d-block w-100" src="/metaverse.jpg"></img>
    
     <a style={{textDecoration:"none",color:"white",backgroundColor:'grey'}} href="/video.html">PLAY VIDEO</a>
