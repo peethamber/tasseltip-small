@@ -17,7 +17,7 @@ export default function Home() {
     <p style={{color:"white",font:"arial-narrow",fontSize:"18px"}}>
     Gamiform Experiences for your Online Business.
     </p>
-    <a href="whygamiform"><img className="d-block w-100" src="/gaming.gif"></img></a>
+    <a href="whygamiform"><img className="d-block w-100" src="/gaming.jpeg"></img></a>
     <a style={{textDecoration:"none",color:"white",backgroundColor:'blue'}} href="/gamevideo.html">PLAY VIDEO </a>
     <p style={{color:'grey'}}>Best Viewed in Portrait on Mobile</p>
 
