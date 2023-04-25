@@ -11,7 +11,7 @@ export default function Header3() {
         <div>
     
             
-    <a href="/"><img src="Tasseltip.png" className="d-block mx-auto" width="130px"/></a>
+    <a href="/"><img src="Tasseltip_edited.png" className="d-block mx-auto" width="130px"/></a>
             <Navbar  expand="lg" className="navbar navbar-dark bg-dark" style={{fontSize:"17px"}}>
             <Container fluid>
             
