@@ -14,7 +14,7 @@ export default function AboutMe() {
     <div className="main-div"style={{backgroundColor:'black'}}>
     <Header3></Header3>
     <Container flex >
-    <img className="img-fluid mx-auto d-block" src="Neil.jpg" width="30%"/>
+    <img className="img-fluid mx-auto d-block" src="NeilWoolerten.jpg" width="30%"/>
     <Card border="secondary" style={{fontFamily:"arial",
     fontSize:"19px",alignItems:'center',backgroundColor:'black',color:'white'}}>
     <div className="mt-5">
