@@ -14,6 +14,21 @@ export default function Home() {
     <div style={{backgroundColor:"black"}}>
     <Header3></Header3>
     <Container fluid>
+    <p></p>
+    <Card  style={{border:"none"}}>
+               
+               <Card.Body>
+                <Card.Text style={{fontSize:"30px"}}>TASSELLAND Launches the VR Showroom in the Metaverse</Card.Text>
+               <div class="mt-5>" align="center">
+               <video style={{width:"auto"}} controls loop poster="/showroom.jpg" >
+               <source src="/CarShowroom.mp4" type="video/mp4"/>
+              
+
+               Your browser does not support the video tag.
+              </video> 
+              </div>   
+    </Card.Body>
+    </Card>
     <p style={{color:"white",font:"arial-narrow",fontSize:"18px"}}>
     Gamiform Experiences for Online Business
     </p>
