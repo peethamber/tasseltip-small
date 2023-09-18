@@ -15,13 +15,13 @@ export default function Home() {
     <Header3></Header3>
     <Container fluid>
     <p></p>
-    <Container fluid>
+    <Container flex>
     <Card  style={{border:"none"}}>
               
                <Card.Body>
                 <Card.Text style={{fontSize:"30px"}}>TASSELLAND Launches the VR Showroom in the Metaverse</Card.Text>
                <div class="mt-5>" align="center">
-               <video style={{width:"100%"}} controls loop poster="/showroom.jpg" >
+               <video style={{width:"50%"}} controls loop poster="/showroom.jpg" >
                <source src="/VirtualCarShowroom.mp4" type="video/mp4"/>
               
 
