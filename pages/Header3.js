@@ -11,19 +11,20 @@ export default function Header3() {
         <div>
     
             
-    <a href="/"><img src="Tasseltip_edited.png" className="d-block mx-auto" width="130px"/></a>
-            <Navbar  expand="lg" className="navbar navbar-dark bg-dark" style={{fontSize:"17px"}}>
+    <a href="/"><img src="Tasseltip_edited.png" className="d-block mx-auto" width="276
+    px"/></a>
+            <Navbar  expand="lg" className="navbar navbar-dark bg-dark" style={{fontSize:"23px"}}>
             <Container fluid>
             
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="navbarNav mx-auto " >
-                <NavDropdown title="Virtual Tour" renderMenuOnMount={true}>
+                <NavDropdown title="Virtual Tour" renderMenuOnMount={true} style={{paddingRight:"17px"}}>
                                       
                                       <Row>
                   
-                                      <Col >
+                                      <Col style={{fontSize:"20px"}}>
                                           <NavDropdown.Item eventKey="Virtual Office" 
                                           href="https://www.tasseltip.com/webgl-small/index.html" target="_blank">
                                               The Office</NavDropdown.Item>
@@ -35,10 +36,10 @@ export default function Header3() {
                                       </Row>
                                        
                           </NavDropdown>
-                          <NavDropdown title="Capabilities" renderMenuOnMount={true}  >
+                          <NavDropdown title="Capabilities" renderMenuOnMount={true} style={{paddingRight:"17px"}} >
                           <Row>
                             
-                            <Col>
+                            <Col style={{fontSize:"20px"}}>
                                 <NavDropdown.Item eventKey="Services" 
                                 href="./ourofferings">
                                     Our Expertise</NavDropdown.Item>
@@ -48,42 +49,33 @@ export default function Header3() {
                             </Row>
                    
                           </NavDropdown>
-                         <NavDropdown title="Gamiform" renderMenuOnMount={true}  >
+                         <NavDropdown title="Gamiform" renderMenuOnMount={true} style={{paddingRight:"17px"}} >
                           <Row>
                             
-                            <Col >
+                            <Col style={{fontSize:"20px"}}>
                                 <NavDropdown.Item eventKey="Gamiform" 
                                 href="./whygamiform">
-                                    Why "Gamiform"</NavDropdown.Item>
+                                   Gamiformation</NavDropdown.Item>
                                 
                             </Col>
                             
                             </Row>
                    
-                          <Row>
-                                
-                                <Col >
-                                    <NavDropdown.Item eventKey="Gamiform" 
-                                    href="./gamiform" >
-                                         "Gamiform" The Workplace</NavDropdown.Item>
-                                    
-                                </Col>
-                                
-                                </Row> 
+                         
                                     
                           </NavDropdown>
                     <NavDropdown title="The Team" renderMenuOnMount={true}  >
                                             
                         <Row>
 
-                        <Col>
+                        <Col style={{fontSize:"20px"}}>
                             <NavDropdown.Item eventKey="About Me" 
                             href="./AboutMe" >
                                 About Me</NavDropdown.Item>
                            
                         </Col>
                         
-                        <Col >
+                        <Col style={{fontSize:"20px"}}>
                             <NavDropdown.Item eventKey="Executive Leadership" 
                             href="./ExecLeadership" >
                                 Executive Leadership</NavDropdown.Item>
@@ -91,27 +83,8 @@ export default function Header3() {
                         </Col>
 
                         </Row>
-                        <Row>
-
-                        <Col >
-                            <NavDropdown.Item eventKey="Contact Me" 
-                            href="./experience" >
-                                My Journey</NavDropdown.Item>
-                        
-                        </Col>
-
-                        </Row>
-                        <Row>
-
-                        <Col >
-                            <NavDropdown.Item eventKey="Contact Me" 
-                            href="./ContactMe" >
-                                Contact Me</NavDropdown.Item>
-                        
-                        </Col>
-
-                        </Row>
-                        
+                      
+                       
                         </NavDropdown>
                                         
                         
