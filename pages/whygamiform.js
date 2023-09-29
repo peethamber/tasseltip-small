@@ -18,10 +18,10 @@ export default function gamiform() {
     alignContent:'center',backgroundColor:"black",color:"white"}}>
     <div className="mt-5">
       <p></p>
-     <Image src="/CarShowroom/Overview.png" width="100%"></Image>
-     <Image src="/CarShowroom/Platform Overview.png" width="100%"></Image>
-     <Image src="/CarShowroom/Technology.png" width="100%"></Image>
-     <Image src="/CarShowroom/Why Gamiformation.png" width="100%"></Image>
+     <Image src="/Overview.png" width="100%"></Image>
+     <Image src="/Platform Overview.png" width="100%"></Image>
+     <Image src="/Technology.png" width="100%"></Image>
+     <Image src="/Why Gamiformation.png" width="100%"></Image>
     <p></p>
     <p>To know how we can help, get in touch at peethvt@tasseltip.com.
     </p>
