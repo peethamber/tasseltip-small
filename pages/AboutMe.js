@@ -11,7 +11,7 @@ export default function AboutMe() {
 
   return ( 
     
-    <div className="main-div"style={{backgroundColor:'black'}}>
+    <div className="main-div"style={{backgroundColor:'#f0f8ff"'}}>
     <Header3></Header3>
     <Container flex >
     <img className="img-fluid mx-auto d-block" src="peethamber.jpeg" width="30%"/>
