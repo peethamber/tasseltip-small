@@ -7,7 +7,7 @@ import Header3 from './Header3';
 import Footer2 from './Footer2';
 
 
-export default function gamiform() {
+export default function PostsAndVideos() {
 
   return ( 
     
@@ -17,16 +17,18 @@ export default function gamiform() {
     <Card border="secondary" style={{fontFamily:"arial",fontSize:"19px",
     alignContent:'center',backgroundColor:"black",color:"white"}}>
     <div className="mt-5">
-      <p></p>
-     <Image src="/CarShowroom/Overview.png" width="100%"></Image>
-     <Image src="/CarShowroom/Platform Overview.png" width="100%"></Image>
-     <Image src="/CarShowroom/Technology.png" width="100%"></Image>
-     <Image src="/CarShowroom/Why Gamiformation.png" width="100%"></Image>
-    <p></p>
+     
+    <video width="100%" controls>
+    <source src="/postsandvideos.mp4" type="video/mp4"/>
+    
+    Your browser does not support the video tag.
+    </video> 
+    </div>
     <p>To know how we can help, get in touch at peethvt@tasseltip.com.
     </p>
-    </div>
+   
     </Card>
+    
     <Footer2></Footer2>
     </Container>
   
