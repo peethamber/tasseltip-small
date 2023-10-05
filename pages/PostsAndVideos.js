@@ -19,7 +19,7 @@ export default function PostsAndVideos() {
     <div className="mt-5">
      
     <video width="100%" controls>
-    <source src="/postsandvideos2.mp4" type="video/mp4"/>
+    <source src="/postsandvideos2.mp4" type="video/mpeg"/>
     
     Your browser does not support the video tag.
     </video> 
