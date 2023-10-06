@@ -4,20 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Button, Alert, Breadcrumb, Card, Form, Row, Col, Navbar, Nav, NavDropdown, Carousel, Image, ListGroup} 
 from 'react-bootstrap';
 
-export default function Footer2({ name, ...props }) {
-    const [show, setShow] = useState(false);
-    
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-    
-    
+export default function Footer2() {
+   
     return(
-        <div className="mt-5" style={{color:"white"}}>
+        <div class="mt-5" style={{color:"black"}}>
 
-           
-               
-               
                 <Row >
                 <Col>
                 
@@ -25,7 +16,7 @@ export default function Footer2({ name, ...props }) {
                     <h6>A B O U T</h6>
                     <p style={{fontFamily:'arial-narrow',fontSize:'14px',width:'300px',lineHeight:"30px"}}>
                     Tasseltip Technology and Business Advisory Services is a Strategy and Technology 
-                    Consulting company.
+                    Consulting company. "Gamiformation" and "Tasselland" are trademark properties of the company.
                     </p>
                   
                 
