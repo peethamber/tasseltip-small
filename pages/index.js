@@ -13,6 +13,7 @@ export default function Home() {
     
     <div style={{backgroundColor:"#f0f8ff"}}>
     <Header3></Header3>
+    
     <Container fluid>
     <p></p>
    
@@ -22,11 +23,17 @@ export default function Home() {
                <Image src="/Services.png" width="100%" ></Image>
               
                <Image src="/Contact.png" width="100%" ></Image>
+               
                </div>
-                 
+             
     
     </Container>
-   
+    <div className="mt-5">
+    <Footer2></Footer2>
+    </div>
    </div>
+  
+   
   )
 }
+
