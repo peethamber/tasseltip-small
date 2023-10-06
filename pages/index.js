@@ -19,6 +19,7 @@ export default function Home() {
    
              <div>
                <Image src="/Home.png" width="100%" ></Image>
+               <Image src="/tm.png" width="100%" ></Image>
                <Image src="/About.png" width="100%" ></Image>
                <Image src="/Services.png" width="100%" ></Image>
               
