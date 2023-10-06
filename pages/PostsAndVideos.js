@@ -18,11 +18,19 @@ export default function PostsAndVideos() {
     alignContent:'center',backgroundColor:"black",color:"white"}}>
     <div className="mt-5">
      
-    <video width="100%" controls>
-    <source src="/postsandvideos2.mp4" type="video/mpeg"/>
+    <Image src="/post1.png" width="100%" ></Image>
+    <Image src="/post2.png" width="100%" ></Image>
+    <Image src="/post3.png" width="100%" ></Image>
+    <Image src="/post4.png" width="100%" ></Image>
+    <Image src="/post5.png" width="100%" ></Image>
+    <Image src="/post6.png" width="100%" ></Image>
+    <Image src="/post7.png" width="100%" ></Image>
+    <Image src="/post8.png" width="100%" ></Image>
+    <Image src="/post9.png" width="100%" ></Image>
+    
     
     Your browser does not support the video tag.
-    </video> 
+   
     </div>
     <p>To know how we can help, get in touch at peethvt@tasseltip.com.
     </p>
