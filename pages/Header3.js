@@ -85,12 +85,12 @@ export default function Header3() {
                            
                         </Col>
                         
-                        <Col style={{fontSize:"20px"}}>
+                        {/* <Col style={{fontSize:"20px"}}>
                             <NavDropdown.Item eventKey="Executive Leadership" 
                             href="./ExecLeadership" >
                                 Executive Leadership</NavDropdown.Item>
                         
-                        </Col>
+                        </Col> */}
 
                         </Row>
                       
