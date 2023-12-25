@@ -37,7 +37,7 @@ export default function Home() {
              
               <h4 align="center">IMMERSIVE TRAINING IN TASSELLAND</h4>
               <div>{domLoaded?<ReactPlayer
-              url="https://vimeo.com/897710781?share=copy" 
+              url="https://vimeo.com/897720337?share=copy" 
                 
                 playing="true"
                 width="100%"
