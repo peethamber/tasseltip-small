@@ -31,21 +31,18 @@ export default function Home() {
                 width="100%"
                 height="50vh"
                 controls="true"
-                />:''}</div>
-                <p></p>
-             
-             
-              <h4 align="center">IMMERSIVE TRAINING IN TASSELLAND</h4>
-              <div>{domLoaded?<ReactPlayer
-              url="https://vimeo.com/897720337?share=copy" 
+                />
+                  <ReactPlayer
+                  url="https://vimeo.com/897720337?share=copy" 
                 
-                playing="true"
-                width="100%"
-                height="50vh"
-                controls="true"
+                  playing="true"
+                  width="100%"
+                  height="50vh"
+                  controls="true"
                 />:''}</div>
                 <p></p>
-               
+             
+           
                <Image src="/tm.png" width="100%" ></Image>
                <Image src="/About.png" width="100%" ></Image>
                <Image src="/Services.png" width="100%" ></Image>
