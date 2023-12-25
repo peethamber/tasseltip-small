@@ -25,11 +25,11 @@ export default function Home() {
               <Image src="/Home.png" width="100%" ></Image>
               <h4 align="center">T A S S E L L A N D - TEASER</h4>
               <div>{domLoaded?<ReactPlayer
-              url="https://vimeo.com/897717888?share=copy" 
+              url="https://youtu.be/Cg1U3SkSWpU" 
                 
                 playing="true"
                 width="100%"
-                height="50vh"
+                height="70vh"
                 controls="true"
                 />:''}</div>
                 <p></p>
@@ -37,11 +37,11 @@ export default function Home() {
              
               <h4 align="center">IMMERSIVE TRAINING IN TASSELLAND</h4>
               <div>{domLoaded?<ReactPlayer
-              url="https://vimeo.com/897720337?share=copy" 
+              url="https://youtu.be/JHOXARhIB7Q" 
                 
                 playing="true"
                 width="100%"
-                height="50vh"
+                height="70vh"
                 controls="true"
                 />:''}</div>
                 <p></p>
