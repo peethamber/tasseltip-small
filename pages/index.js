@@ -27,7 +27,7 @@ export default function Home() {
               <div>{domLoaded?<ReactPlayer
               url="https://youtu.be/Cg1U3SkSWpU" 
                 
-                playing="true"
+                playing="false"
                 width="100%"
                 height="70vh"
                 controls="true"
@@ -39,7 +39,7 @@ export default function Home() {
               <div>{domLoaded?<ReactPlayer
               url="https://youtu.be/JHOXARhIB7Q" 
                 
-                playing="true"
+                playing="false"
                 width="100%"
                 height="70vh"
                 controls="true"
