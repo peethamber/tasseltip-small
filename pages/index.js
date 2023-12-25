@@ -18,6 +18,7 @@ export default function Home() {
     <p></p>
    
              <div>
+               <video src="/training.mp4" width="100%"></video>
                <Image src="/Home.png" width="100%" ></Image>
                <Image src="/tm.png" width="100%" ></Image>
                <Image src="/About.png" width="100%" ></Image>
