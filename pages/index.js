@@ -1,38 +1,52 @@
 import React from 'react';
 
-import ReactPlayer from 'react-player'
+
 import {Container, Button, Alert, Breadcrumb, Card, Form, Row, Col, Navbar, Nav, NavDropdown, Carousel, Image, ListGroup, InputGroup} 
 from 'react-bootstrap';
 import Header3 from './Header3';
 import Footer2 from './Footer2'
-
+import ReactPlayer from 'react-player'
+import {useState,useEffect} from 'react'
 
 export default function Home() {
-  
+  const [domLoaded, setDomLoaded] = useState(false);
+
+  useEffect(() => {
+    setDomLoaded(true);
+  }, []);
   return ( 
     
     <div style={{backgroundColor:"#f0f8ff"}}>
-    <Header3></Header3>
-    
-    <Container fluid>
-    <p></p>
    
-             <div>
-              
-               <Image src="/Home.png" width="100%" ></Image>
+
+              <Container flex>
+              <Header3></Header3>
+              <p></p>
+              <Image src="/Home.png" width="100%" ></Image>
+              <p></p>
+              <h4 align="center">IMMERSIVE TRAINING in TASSELLAND</h4>
+              <div>{domLoaded?<ReactPlayer
+              url="https://vimeo.com/897710781?share=copy" 
+                
+                playing="true"
+                width="100%"
+                height="100vh"
+                controls="true"
+                />:''}</div>
+                <p></p>
+               
                <Image src="/tm.png" width="100%" ></Image>
                <Image src="/About.png" width="100%" ></Image>
                <Image src="/Services.png" width="100%" ></Image>
               
                <Image src="/Contact.png" width="100%" ></Image>
                
-               </div>
              
-    
-    </Container>
-    <div className="mt-5">
-    <Footer2></Footer2>
-    </div>
+              
+             
+               <Footer2></Footer2>
+               </Container>
+   
    </div>
   
    
