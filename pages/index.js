@@ -23,14 +23,14 @@ export default function Home() {
               <Header3></Header3>
               <p></p>
               <Image src="/Home.png" width="100%" ></Image>
-              <p></p>
+             
               <h4 align="center">IMMERSIVE TRAINING in TASSELLAND</h4>
               <div>{domLoaded?<ReactPlayer
               url="https://vimeo.com/897710781?share=copy" 
                 
                 playing="true"
                 width="100%"
-                height="100vh"
+                height="50vh"
                 controls="true"
                 />:''}</div>
                 <p></p>
