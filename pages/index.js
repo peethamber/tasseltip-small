@@ -33,7 +33,17 @@ export default function Home() {
                 controls="true"
                 />:''}</div>
                 <p></p>
-             
+
+                   <h4 align="center">L V I S</h4>
+              <div>{domLoaded?<ReactPlayer
+              url="https://youtu.be/EXVvxEsPVqk" 
+                
+                playing="false"
+                width="100%"
+                height="70vh"
+                controls="true"
+                />:''}</div>
+                <p></p>
              
               <h4 align="center">IMMERSIVE TRAINING IN TASSELLAND</h4>
               <div>{domLoaded?<ReactPlayer
