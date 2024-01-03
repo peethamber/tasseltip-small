@@ -33,6 +33,8 @@ export default function Home() {
                 controls="true"
                 />:''}</div>
                 <p></p>
+                  <Image src="/esg.png" width="100%" ></Image>
+                  <p></p>
               <Image src="/Home.png" width="100%" ></Image>
               <h4 align="center">T A S S E L L A N D - TEASER</h4>
               <div>{domLoaded?<ReactPlayer
