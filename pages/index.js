@@ -22,6 +22,17 @@ export default function Home() {
               <Container flex>
               <Header3></Header3>
               <p></p>
+             <h4 align="center">T A S S E L L A N D & Sustainability</h4>
+              <p></p>
+              <div>{domLoaded?<ReactPlayer
+              url="https://youtu.be/2nikZcsanFY" 
+                
+                playing="false"
+                width="100%"
+                height="70vh"
+                controls="true"
+                />:''}</div>
+                <p></p>
               <Image src="/Home.png" width="100%" ></Image>
               <h4 align="center">T A S S E L L A N D - TEASER</h4>
               <div>{domLoaded?<ReactPlayer
