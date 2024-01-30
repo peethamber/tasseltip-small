@@ -33,9 +33,7 @@ export default function Home() {
            <img src="/Gamiformation-mobile-new.png" width="100%"></img>}
            <p></p>
           
-           {!isDesktopOrLaptop ?
-           <img src="/Gamiformation-mobile-pillars.png" width="100%"></img>:''}
-           <p></p>
+       
            {isDesktopOrLaptop ? <img src="/Business-drivers.png" width="100%"></img>:
            <img src="/Business-drivers-mobile.png" width="100%"></img>}
            <p></p> 
