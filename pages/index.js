@@ -19,9 +19,7 @@ export default function Home() {
    <div style={{backgroundColor:"black",color:"white"}} >
       <Container fluid>
   
-      <Head>
-            <link href="https://fonts.googleapis.com/css2?family=Whitney&display=swap" rel="stylesheet" />
-      </Head>
+  
      
     <Header4 />
     
