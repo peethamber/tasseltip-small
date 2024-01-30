@@ -1,86 +1,72 @@
-import React from 'react';
-
-
+import React, { useState } from 'react';
+import { useRef } from 'react';
 import {Container, Button, Alert, Breadcrumb, Card, Form, Row, Col, Navbar, Nav, NavDropdown, Carousel, Image, ListGroup, InputGroup} 
 from 'react-bootstrap';
-import Header3 from './Header3';
-import Footer2 from './Footer2'
-import ReactPlayer from 'react-player'
-import {useState,useEffect} from 'react'
+
+import { motion,useScroll, useTransform,useAnimation } from "framer-motion";
+import Header4 from './Header4.js'
+import { useMediaQuery } from 'react-responsive'
+import Head from 'next/head'
+import Project1 from './Project1.js';
+import Project2 from './Project2.js';
+import Project3 from './Project3.js';
+import Project4 from './Project4.js';
+import Footer2 from './Footer2.js';
+
 
 export default function Home() {
-  const [domLoaded, setDomLoaded] = useState(false);
 
-  useEffect(() => {
-    setDomLoaded(true);
-  }, []);
+ const scrollRef = useRef()
+  const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 1224px)' })
+
   return ( 
+  
+   <div style={{backgroundColor:"black",color:"white"}} >
+      <Container fluid>
+  
+      <Head>
+            <link href="https://fonts.googleapis.com/css2?family=Whitney&display=swap" rel="stylesheet" />
+      </Head>
+     
+    <Header4 />
     
-    <div style={{backgroundColor:"#f0f8ff"}}>
+           {isDesktopOrLaptop ? <img src="Home.png" width="100%"/>:
+           <img src="Home-mobile-new.png" width="100%"/>}
+           <p></p>
+           {isDesktopOrLaptop ? <img src="/AboutNew.png" width="100%"/>:
+           <img src="/About-mobile-new.png" width="100%"/>}
+           <p></p>
+           {isDesktopOrLaptop ? <img src="/GamiformationNew.png" width="100%"></img>:
+           <img src="/Gamiformation-mobile-new.png" width="100%"></img>}
+           <p></p>
+          
+           {/* {!isDesktopOrLaptop ?
+           <img src="/Gamiformation-mobile-pillars.png" width="100%"></img>:''}
+           <p></p> */}
+           {isDesktopOrLaptop ? <img src="/Business-drivers.png" width="100%"></img>:
+           <img src="/Business-drivers-mobile.png" width="100%"></img>}
+           <p></p> 
+           {isDesktopOrLaptop ? <img src="/TassCOMMERCE.png" width="100%"></img>:
+           <img src="/TassCOMMERCE-mobile.png" width="100%"></img>}
+           <p></p>
+           <img src="/Contact.png" width="100%"></img>
+           
+            {/* <motion.img src="Home.png" 
+            initial={{x:90,y:56,opacity:-5,width:"2%"}} 
+            animate={{x:-10,y:7,opacity:1,width:"104%"}} 
+            transition={{delay:2,duration:4,type:'spring'}}
+           ></motion.img>
+{/* 
+          <Project1/>
+          <Project2/>
+         
+          <Project4/> */}
+        
+    
+    
+    </Container>   
    
-
-              <Container flex>
-              <Header3></Header3>
-              <p></p>
-             <h4 align="center">T A S S E L L A N D & Sustainability</h4>
-              <p></p>
-              <div>{domLoaded?<ReactPlayer
-              url="https://youtu.be/2nikZcsanFY" 
-                
-                playing="false"
-                width="100%"
-                height="70vh"
-                controls="true"
-                />:''}</div>
-                <p></p>
-                  <Image src="/esg.png" width="100%" ></Image>
-                  <p></p>
-              <Image src="/Home.png" width="100%" ></Image>
-              <h4 align="center">T A S S E L L A N D - TEASER</h4>
-              <div>{domLoaded?<ReactPlayer
-              url="https://youtu.be/Cg1U3SkSWpU" 
-                
-                playing="false"
-                width="100%"
-                height="70vh"
-                controls="true"
-                />:''}</div>
-                <p></p>
-
-                   <h4 align="center">L V I S</h4>
-              <div>{domLoaded?<ReactPlayer
-              url="https://youtu.be/EXVvxEsPVqk" 
-                
-                playing="false"
-                width="100%"
-                height="70vh"
-                controls="true"
-                />:''}</div>
-                <p></p>
-             
-              <h4 align="center">IMMERSIVE TRAINING IN TASSELLAND</h4>
-              <div>{domLoaded?<ReactPlayer
-              url="https://youtu.be/JHOXARhIB7Q" 
-                
-                playing="false"
-                width="100%"
-                height="70vh"
-                controls="true"
-                />:''}</div>
-                <p></p>
-               
-               <Image src="/tm.png" width="100%" ></Image>
-               <Image src="/About.png" width="100%" ></Image>
-               <Image src="/Services.png" width="100%" ></Image>
-              
-               <Image src="/Contact.png" width="100%" ></Image>
-               
-             
-              
-             
-               <Footer2></Footer2>
-               </Container>
-   
+         
    </div>
   
    
