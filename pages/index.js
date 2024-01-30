@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import {Container, Button, Alert, Breadcrumb, Card, Form, Row, Col, Navbar, Nav, NavDropdown, Carousel, Image, ListGroup, InputGroup} 
 from 'react-bootstrap';
 
-import { motion,useScroll, useTransform,useAnimation } from "framer-motion";
+
 import Header4 from './Header4.js'
 import { useMediaQuery } from 'react-responsive'
 import Head from 'next/head'
