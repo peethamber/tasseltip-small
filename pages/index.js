@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import { useRef } from 'react';
-import {Container, Button, Alert, Breadcrumb, Card, Form, Row, Col, Navbar, Nav, NavDropdown, Carousel, Image, ListGroup, InputGroup} 
+import {Container, Modal,Button, Alert, Breadcrumb, Card, Form, Row, Col, Navbar, Nav, NavDropdown, Carousel, Image, ListGroup, InputGroup, ModalDialog} 
 from 'react-bootstrap';
 
 import { motion } from 'framer-motion';
@@ -9,11 +9,25 @@ import { useMediaQuery } from 'react-responsive'
 import MediaQuery from 'react-responsive'
 import Head from 'next/head'
 import Footer2 from './Footer2';
+import { Roboto_Serif, Rubik,Inter } from '@next/font/google';
 
 import CookieConsent from "react-cookie-consent";
+import Tasscommerce from './Tasscommerce.js';
+
+const rubik = Rubik({ weight: '300', subsets: ['latin']  })
+const roboto = Roboto_Serif({ weight: '400',subsets: ['latin']  })
+const inter = Inter({ weight:'100',subsets: ['latin']  })
+
 export default function Home() {
       const [domLoaded, setDomLoaded] = useState(false);
 
+      const [show, setShow] = useState(true);
+      
+
+      const handleClose = () => setShow(false);
+      const handleShow = () => setShow(true);
+      
+     
 useEffect(() => {
   setDomLoaded(true);
 }, []);
@@ -39,7 +53,26 @@ useEffect(() => {
    <Container fluid>
    <Header4/>
     {domLoaded ? <MediaQuery minWidth={1224}>
-  
+        <Modal show={show} onHide={handleClose}
+             
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+           >
+            <Modal.Header closeButton>
+              <Modal.Title style={{fontSize:"18px",fontFamily:roboto.style.fontFamily}}>Meet TassCOMMERCE, The State of the Art E-Commerce Platform</Modal.Title>
+            </Modal.Header>
+            <Modal.Body >
+              <img src="/TassCOMMERCE.png" width="100%"/>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={handleClose}>
+                Close
+              </Button>
+              <a href="./Tasscommerce" style={{color:'black',textDecoration:'none'}}>Learn More</a>
+            
+            </Modal.Footer>
+          </Modal>
            <motion.img src="Home.png" width="100%"
            initial={{opacity:0}}
            animate={{opacity:1}}
@@ -72,6 +105,25 @@ useEffect(() => {
            
     </MediaQuery>:''}
     {domLoaded ? <MediaQuery maxWidth={1224}>
+        <Modal show={show} onHide={handleClose}
+            
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered>
+            <Modal.Header closeButton>
+              <Modal.Title style={{fontFamily:'inherit'}}>Meet TassCOMMERCE, The State of the Art E-Commerce Platform</Modal.Title>
+            </Modal.Header>
+            <Modal.Body >
+              <img src="/TassCOMMERCE.png" width="100%"/>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={handleClose}>
+                Close
+              </Button>
+              <a href="./Tasscommerce" style={{color:'black',textDecoration:'none'}}>Learn More</a>
+            
+            </Modal.Footer>
+          </Modal>
           <motion.img src="Home-mobile-new.png" width="100%"
            initial={{opacity:0}}
            animate={{opacity:1}}
@@ -91,6 +143,12 @@ useEffect(() => {
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration:2.4}}/>
+
+          {/* <img src="/Gamiformation-mobile-pillars.png" width="100%"
+            initial={{opacity:0}}
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/> */}
+        
         
            <img src="/TassCOMMERCE-mobile.png" width="100%"
             initial={{opacity:0}}

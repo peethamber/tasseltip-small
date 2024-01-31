@@ -6,6 +6,10 @@ import {Container, Button, Alert, Breadcrumb, Card, Form, Row, Col, Navbar, Nav,
 from 'react-bootstrap';
 import { useMediaQuery } from 'react-responsive'
 import { motion } from 'framer-motion';
+import { Roboto_Serif, Rubik,Inter } from '@next/font/google'
+
+const roboto = Roboto_Serif({ weight: '300',subsets: ['latin']  })
+
 
 export default function Header4() {
    
@@ -19,7 +23,7 @@ export default function Header4() {
       
     
            
-            <Navbar  expand="lg" className="navbar navbar-dark bg-black" style={{fontSize:"18px",fontFamily:"inherit"}}>
+            <Navbar  expand="lg" className="navbar navbar-dark bg-black" style={{fontSize:"18px",fontFamily:roboto.style.fontFamily}}>
            
            
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,7 +33,7 @@ export default function Header4() {
                 <motion.a initial={{opacity:0}}
                 animate={{opacity:1}}
                 transition={{duration:3}}
-                href="/" style={{textDecoration:'none',color:'white'}}><h3 style={{fontFamily:"inherit",fontSize:"22px"}}>T A S S E L T I P</h3>
+                href="/" style={{textDecoration:'none',color:'white'}}><h3 style={{fontSize:"22px",fontFamily:roboto.style.fontFamily}}>T A S S E L T I P</h3>
                 </motion.a>
                
              
@@ -37,7 +41,8 @@ export default function Header4() {
                 <Nav className="navbarNav mx-auto " 
                 >
                 <Nav.Link href="./PostsAndVideos" >MEDIA</Nav.Link>
-                <Nav.Link href="./AboutMe">ABOUT</Nav.Link>     
+                <Nav.Link href="./Tasscommerce">TassCOMMERCE</Nav.Link>   
+                <Nav.Link href="./XRSolutions">XR SOLUTIONS</Nav.Link>  
                 </Nav>
                 </Navbar.Collapse>
            
