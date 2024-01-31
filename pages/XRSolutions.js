@@ -23,7 +23,10 @@ export default function XRSolutions ()
            animate={{opacity:1}}
            transition={{duration:2.4}}/>
            
-           
+           <img src="/Contact.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
            
             </MediaQuery>
            
@@ -34,13 +37,16 @@ export default function XRSolutions ()
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration:2.4}}/>
-            
+
             <motion.img src="/XRAndGamiformation-mobile.png" width="100%"
            initial={{opacity:0}}
            animate={{opacity:1}}
            transition={{duration:2.4}}/>
            
-       
+           <img src="/Contact-mobile.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
          
             </MediaQuery>:''
            
