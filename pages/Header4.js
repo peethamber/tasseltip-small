@@ -36,8 +36,8 @@ export default function Header4() {
 
                 <Nav className="navbarNav mx-auto " 
                 >
-                <Nav.Link href="./PostsAndVideos" >Media</Nav.Link>
-                {/* <Nav.Link href="#">XR Services</Nav.Link>      */}
+                <Nav.Link href="./PostsAndVideos" >MEDIA</Nav.Link>
+                <Nav.Link href="./AboutMe">ABOUT</Nav.Link>     
                 </Nav>
                 </Navbar.Collapse>
            

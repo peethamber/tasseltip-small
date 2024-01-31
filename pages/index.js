@@ -8,6 +8,7 @@ import Header4 from './Header4.js'
 import { useMediaQuery } from 'react-responsive'
 import MediaQuery from 'react-responsive'
 import Head from 'next/head'
+import Footer2 from './Footer2';
 
 import CookieConsent from "react-cookie-consent";
 export default function Home() {
@@ -149,7 +150,7 @@ useEffect(() => {
            <img src="/Contact.png" width="100%"></img>
            
            */}
-    
+            <Footer2></Footer2>
            </Container>
            </>
    
