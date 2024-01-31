@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import {Container, Button, Alert, Breadcrumb, Card, Form, Row, Col, Navbar, Nav, NavDropdown, Carousel, Image, ListGroup, InputGroup} 
 from 'react-bootstrap';
 
-
+import { motion } from 'framer-motion';
 import Header4 from './Header4.js'
 import { useMediaQuery } from 'react-responsive'
 import MediaQuery from 'react-responsive'
@@ -39,7 +39,10 @@ useEffect(() => {
    <Header4/>
     {domLoaded ? <MediaQuery minWidth={1224}>
   
-           <img src="Home.png" width="100%"/>
+           <motion.img src="Home.png" width="100%"
+           initial={{opacity:0}}
+           animate={{opacity:1}}
+           transition={{duration:3}}/>
            
            <img src="/AboutNew.png" width="100%"/>
           
@@ -53,7 +56,10 @@ useEffect(() => {
            
     </MediaQuery>:''}
     {domLoaded ? <MediaQuery maxWidth={1224}>
-           <img src="Home-mobile-new.png" width="100%"/>
+          <motion.img src="Home-mobile-new.png" width="100%"
+           initial={{opacity:0}}
+           animate={{opacity:1}}
+           transition={{duration:3}}/>
           
            <img src="/About-mobile-new.png" width="100%"/>
            
