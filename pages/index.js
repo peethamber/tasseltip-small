@@ -39,27 +39,27 @@ useEffect(() => {
    <Header4/>
     {domLoaded ? <MediaQuery minWidth={1224}>
            <img src="Home.png" width="100%"/>
-           <p></p>
+           
            <img src="/AboutNew.png" width="100%"/>
-           <p></p>
+          
            <img src="/GamiformationNew.png" width="100%"></img>
-           <p></p>
+           
            <img src="/Business-drivers.png" width="100%"></img>
-           <p></p>
+         
            <img src="/TassCOMMERCE.png" width="100%"></img>
-           <p></p>
+           
     </MediaQuery>:''}
     {domLoaded ? <MediaQuery maxWidth={1224}>
            <img src="Home-mobile-new.png" width="100%"/>
-           <p></p>
+          
            <img src="/About-mobile-new.png" width="100%"/>
-           <p></p>
+           
            <img src="/Gamiformation-mobile-new.png" width="100%"></img>
-           <p></p>
+         
            <img src="/Business-drivers-mobile.png" width="100%"></img>
-           <p></p>
+        
            <img src="/TassCOMMERCE-mobile.png" width="100%"></img>
-           <p></p>
+          
 
     </MediaQuery>:''}
    <img src="/Contact.png" width="100%"></img>
