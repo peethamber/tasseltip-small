@@ -46,23 +46,23 @@ useEffect(() => {
            
            <motion.img src="/AboutNew.png" width="100%"
             initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{duration:3}}/>
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
           
            <motion.img src="/GamiformationNew.png" width="100%"
             initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{duration:3}}/>
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
            
            <motion.img src="/Business-drivers.png" width="100%"
             initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{duration:3}}/>
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
          
            <motion.img src="/TassCOMMERCE.png" width="100%" 
            initial={{opacity:0}}
-           animate={{opacity:1}}
-           transition={{duration:3}}/>
+           whileInView={{opacity:1}}
+           transition={{duration:2.4}}/>
 
            <img src="/Contact.png" width="100%"
             initial={{opacity:0}}
@@ -74,32 +74,32 @@ useEffect(() => {
           <motion.img src="Home-mobile-new.png" width="100%"
            initial={{opacity:0}}
            animate={{opacity:1}}
-           transition={{duration:3}}/>
+           transition={{duration:2.4}}/>
           
            <motion.img src="/About-mobile-new.png" width="100%"
             initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{duration:3}}/>
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
            
            <motion.img src="/Gamiformation-mobile-new.png" width="100%"
             initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{duration:3}}/>
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
          
            <img src="/Business-drivers-mobile.png" width="100%"
             initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{duration:3}}/>
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
         
            <img src="/TassCOMMERCE-mobile.png" width="100%"
             initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{duration:3}}/>
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
 
            <img src="/Contact-mobile.png" width="100%"
             initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{duration:3}}/>
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
           
 
     </MediaQuery>:''}
