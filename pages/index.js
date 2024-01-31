@@ -42,7 +42,7 @@ useEffect(() => {
            <motion.img src="Home.png" width="100%"
            initial={{opacity:0}}
            animate={{opacity:1}}
-           transition={{duration:3}}/>
+           transition={{duration:2.4}}/>
            
            <motion.img src="/AboutNew.png" width="100%"
             initial={{opacity:0}}
