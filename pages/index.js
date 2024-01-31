@@ -9,7 +9,7 @@ import { useMediaQuery } from 'react-responsive'
 import MediaQuery from 'react-responsive'
 import Head from 'next/head'
 
-
+import CookieConsent from "react-cookie-consent";
 export default function Home() {
       const [domLoaded, setDomLoaded] = useState(false);
 
@@ -38,6 +38,7 @@ useEffect(() => {
    <Container fluid>
    <Header4/>
     {domLoaded ? <MediaQuery minWidth={1224}>
+  
            <img src="Home.png" width="100%"/>
            
            <img src="/AboutNew.png" width="100%"/>
@@ -66,6 +67,17 @@ useEffect(() => {
           
 
     </MediaQuery>:''}
+    <CookieConsent
+        location="bottom"
+        buttonText="Yes, I Agree"
+        cookieName="myAwesomeCookieName2"
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        expires={150}
+      >
+        This website uses cookies to enhance the user experience.{" "}
+        {/* <span style={{ fontSize: "10px" }}>This bit of text is smaller :O</span> */}
+      </CookieConsent>
    {/* <img src="/Contact.png" width="100%"></img> */}
            {/* {isDesktopOrLaptop ? <img src="Home.png" width="100%"/>:
            <img src="Home-mobile-new.png" width="100%"/>
