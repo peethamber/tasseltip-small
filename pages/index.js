@@ -44,15 +44,30 @@ useEffect(() => {
            animate={{opacity:1}}
            transition={{duration:3}}/>
            
-           <img src="/AboutNew.png" width="100%"/>
+           <motion.img src="/AboutNew.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
           
-           <img src="/GamiformationNew.png" width="100%"></img>
+           <motion.img src="/GamiformationNew.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
            
-           <img src="/Business-drivers.png" width="100%"></img>
+           <motion.img src="/Business-drivers.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
          
-           <img src="/TassCOMMERCE.png" width="100%"></img>
+           <motion.img src="/TassCOMMERCE.png" width="100%" 
+           initial={{opacity:0}}
+           animate={{opacity:1}}
+           transition={{duration:3}}/>
 
-           <img src="/Contact.png" width="100%"></img>
+           <img src="/Contact.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
            
     </MediaQuery>:''}
     {domLoaded ? <MediaQuery maxWidth={1224}>
@@ -61,15 +76,30 @@ useEffect(() => {
            animate={{opacity:1}}
            transition={{duration:3}}/>
           
-           <img src="/About-mobile-new.png" width="100%"/>
+           <motion.img src="/About-mobile-new.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
            
-           <img src="/Gamiformation-mobile-new.png" width="100%"></img>
+           <motion.img src="/Gamiformation-mobile-new.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
          
-           <img src="/Business-drivers-mobile.png" width="100%"></img>
+           <img src="/Business-drivers-mobile.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
         
-           <img src="/TassCOMMERCE-mobile.png" width="100%"></img>
+           <img src="/TassCOMMERCE-mobile.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
 
-           <img src="/Contact-mobile.png" width="100%"></img>
+           <img src="/Contact-mobile.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
           
 
     </MediaQuery>:''}
