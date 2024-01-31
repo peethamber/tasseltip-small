@@ -43,7 +43,7 @@ export default function AboutMe() {
       </p>
       </div>
     </Card>
-    <Footer2></Footer2>
+    
     </Container>
   
    </div>

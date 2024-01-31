@@ -150,7 +150,7 @@ useEffect(() => {
            <img src="/Contact.png" width="100%"></img>
            
            */}
-            <Footer2></Footer2>
+           
            </Container>
            </>
    
