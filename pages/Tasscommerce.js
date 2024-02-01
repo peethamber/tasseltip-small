@@ -23,6 +23,11 @@ export default function Tasscommerce ()
            animate={{opacity:1}}
            transition={{duration:2.4}}/>
            
+           <motion.img src="/Commerce4.png" width="100%"
+            initial={{opacity:0}}
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
+
            <motion.img src="/commerce2.png" width="100%"
             initial={{opacity:0}}
             whileInView={{opacity:1}}
@@ -53,6 +58,11 @@ export default function Tasscommerce ()
             whileInView={{opacity:1}}
             transition={{duration:2.4}}/>
           
+          <motion.img src="/Commerce4-mobile.png" width="100%"
+            initial={{opacity:0}}
+            whileInView={{opacity:1}}
+            transition={{duration:2.4}}/>
+
            <motion.img src="/commerce3-mobile.png" width="100%"
             initial={{opacity:0}}
             whileInView={{opacity:1}}
