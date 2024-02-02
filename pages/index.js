@@ -70,6 +70,7 @@ useEffect(() => {
                 Close
               </Button>
               <a href="./Tasscommerce" style={{color:'black',textDecoration:'none'}}>Learn More</a>
+              <a href="https://tass-commerce-ver-base.vercel.app" target="_blank" style={{color:'black',textDecoration:'none'}}>Demo</a>
             
             </Modal.Footer>
           </Modal>
