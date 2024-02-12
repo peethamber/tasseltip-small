@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Container, Button, Alert, Breadcrumb, Card, Form, Row, Col, Navbar, Nav, NavDropdown, Carousel, Image, ListGroup, InputGroup} 
 from 'react-bootstrap';
+import MediaQuery from 'react-responsive'
 import { useMediaQuery } from 'react-responsive'
 import { motion } from 'framer-motion';
 import { Roboto_Serif, Rubik,Inter } from '@next/font/google'
@@ -13,10 +14,12 @@ const roboto = Roboto_Serif({ weight: '300',subsets: ['latin']  })
 
 export default function Header4() {
    
-    const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 1224px)' })
+    const [domLoaded, setDomLoaded] = useState(false);
    
    
-       
+    useEffect(() => {
+        setDomLoaded(true);
+      }, []);
      return (
         
         <div className="fluid">
@@ -50,7 +53,11 @@ export default function Header4() {
               
            
             </Navbar>
-            <img src="/LCCI-logo1.png" width="25%"/>
+            {domLoaded ? <MediaQuery minWidth={1224}>
+            <img src="/LCCI-logo1.png" width="22%"/>
+            </MediaQuery>:''}
+            {domLoaded ? <MediaQuery maxWidth={1224}>
+            <img src="/LCCI-logo1.png" width="100%"/></MediaQuery>:''}
             </div>
         
     )
