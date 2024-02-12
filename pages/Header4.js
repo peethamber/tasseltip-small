@@ -54,10 +54,10 @@ export default function Header4() {
            
             </Navbar>
             {domLoaded ? <MediaQuery minWidth={1224}>
-            <img src="/LCCI-logo1.png" width="22%"/>
+            <a href="https://www.londonchamber.co.uk/" target="_blank"> <img src="/LCCI-logo1.png" width="22%"/></a>
             </MediaQuery>:''}
             {domLoaded ? <MediaQuery maxWidth={1224}>
-            <img src="/LCCI-logo1.png" width="50%"/></MediaQuery>:''}
+            <a href="https://www.londonchamber.co.uk/" target="_blank"><img src="/LCCI-logo1.png" width="50%"/></a></MediaQuery>:''}
             </div>
         
     )
