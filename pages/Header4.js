@@ -57,7 +57,7 @@ export default function Header4() {
             <img src="/LCCI-logo1.png" width="22%"/>
             </MediaQuery>:''}
             {domLoaded ? <MediaQuery maxWidth={1224}>
-            <img src="/LCCI-logo1.png" width="100%"/></MediaQuery>:''}
+            <img src="/LCCI-logo1.png" width="50%"/></MediaQuery>:''}
             </div>
         
     )
