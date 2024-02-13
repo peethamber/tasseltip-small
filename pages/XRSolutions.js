@@ -22,6 +22,16 @@ export default function XRSolutions ()
            initial={{opacity:0}}
            animate={{opacity:1}}
            transition={{duration:2.4}}/>
+
+            <img src="/VRTraining.png" width="50%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
+
+            <img src="/DrivingTraining.png" width="50%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
            
            <img src="/Contact.png" width="100%"
             initial={{opacity:0}}
@@ -43,10 +53,18 @@ export default function XRSolutions ()
            animate={{opacity:1}}
            transition={{duration:2.4}}/>
            
+           <img src="/VRTraining.png" width="100%"
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:3}}/>
+
            <img src="/Contact-mobile.png" width="100%"
             initial={{opacity:0}}
             animate={{opacity:1}}
             transition={{duration:3}}/>
+
+          
+         
          
             </MediaQuery>:''
            
