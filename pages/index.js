@@ -53,7 +53,7 @@ useEffect(() => {
    <Container fluid>
    <Header4/>
     {domLoaded ? <MediaQuery minWidth={1224}>
-        <Modal show={show} onHide={handleClose}
+        {/* <Modal show={show} onHide={handleClose}
              
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
@@ -74,7 +74,7 @@ useEffect(() => {
             
             </Modal.Footer>
           </Modal>
-         
+          */}
 
            <motion.img src="Home.png" width="100%"
            initial={{opacity:0}}
